@@ -1,10 +1,10 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
 const reducer = require("./commands/reducer");
 
 const prefix = "-";
 
-client.on('ready', () => {
+client.on("ready", () => {
 	console.log(`Logged in as ${client.user.tag}!`);
 });
 
